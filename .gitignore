@@ -2,3 +2,6 @@
 *~
 *.sw
 *.autosave
+
+# Node
+node_modules/

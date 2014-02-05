@@ -16,7 +16,7 @@ http.createServer(app).listen(8000);
 
 app.set('views', __dirname+'/views');
 app.set('view engine', 'jade');
-app.use(express.static(__dirname+'/public');
+app.use(express.static(__dirname+'/public'));
 app.use(express.logger('dev'));
 app.use(app.router);
 app.use(function(req, res) {
@@ -27,5 +27,8 @@ app.use(function(req, res) {
 //----------------------------------------------------------
 
 app.get('/', function(req, res) {
+  res.status(200);
   res.render('index');
 });
+
+console.log(' listening on all interfaces on port 8000');

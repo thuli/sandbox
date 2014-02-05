@@ -1,0 +1,15 @@
+{
+  "name": "sandbox",
+  "version": "v0.1.0",
+  "author": "Nate Thuli <nthuli10@gmail.com>",
+  "description": "Web Development Sandbox with Node, Jade, and Express",
+
+  "dependencies": {
+    "express": "*",
+    "debug": "*",
+    "jade": "*"
+  },
+
+  "engine": "node 0.10.x",
+  "license": "MIT"
+}
